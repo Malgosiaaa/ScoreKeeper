@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#009688</color>
+    <color name="textColor">#000000</color>
+    <color name="pressed_button">#FFCC80</color>
+   <color name="pressed_button_stroke">#E65100</color>
+    <color name="default_button">#AB47BC</color>
+    <color name="layout_color">#731DE9B6</color>
+    <color name="layout_stroke">#039BE5</color>
+    <color name="score">#FFFFFF</color>
+    <color name="fouls">#FFFFFF</color>
+</resources>

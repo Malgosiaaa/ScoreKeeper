@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="name_of_team_a">Name of Team A</string>
+    <string name="scoreValue_teamA">0</string>
+    <string name="score_teamA">Score</string>
+    <string name="fouls_teamA">Fouls</string>
+    <string name="name_of_team_b">Name of Team B</string>
+    <string name="score_teamB">Score</string>
+    <string name="fouls_teamB">Fouls</string>
+    <string name="foulsValue_teamA">0</string>
+    <string name="point">point</string>
+    <string name="button_foul">Foul</string>
+    <string name="scoreValue_teamB">0</string>
+    <string name="foulsValue_teamB">0</string>
+    <string name="get_score">Get score</string>
+    <string name="new_game">new game</string>
+    <string name="goal">Goooaaal!</string>
+    <string name="foul_message">That wasn\'t nice!</string>
+    <string name="congratulations">Congratulations" "</string>
+    <string name="exclamation">!</string>
+    <string name="you_won">You won with" "</string>
+    <string name="points_message">" "points.</string>
+    <string name="and_message">" "and" "</string>
+    <string name="drew">You drew by scoring" "</string>
+</resources>
