@@ -16,10 +16,6 @@
     <string name="new_game">new game</string>
     <string name="goal">Goooaaal!</string>
     <string name="foul_message">That wasn\'t nice!</string>
-    <string name="congratulations">Congratulations" "</string>
-    <string name="exclamation">!</string>
-    <string name="you_won">You won with" "</string>
-    <string name="points_message">" "points.</string>
-    <string name="and_message">" "and" "</string>
-    <string name="drew">You drew by scoring" "</string>
+    <string name="winner_message">Congratulations %1$s! \n You won with %2$d points.</string>
+    <string name="drew_message">Congratulations %1$s and %2$s! \n You drew by scoring %3$d points.</string>
 </resources>

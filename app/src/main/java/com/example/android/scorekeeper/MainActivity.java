@@ -98,14 +98,11 @@ public class MainActivity extends AppCompatActivity {
         String TeamBName = teamB.getText().toString();
 
         if (scoreTeamA > scoreTeamB) {
-            Toast.makeText(this, getString(R.string.congratulations) + TeamAName + getString(R.string.exclamation)
-                    + "\n" + getString(R.string.you_won) + scoreTeamA + getString(R.string.points_message), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.winner_message, TeamAName, scoreTeamA), Toast.LENGTH_LONG).show();
         } else if (scoreTeamA < scoreTeamB) {
-            Toast.makeText(this, getString(R.string.congratulations) + TeamBName + getString(R.string.exclamation) +
-                    "\n" + getString(R.string.you_won) + scoreTeamB + getString(R.string.points_message), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.winner_message, TeamBName, scoreTeamB), Toast.LENGTH_LONG).show();
         } else if (scoreTeamA == scoreTeamB) {
-            Toast.makeText(this, getString(R.string.congratulations) + TeamAName + getString(R.string.and_message) + TeamBName + getString(R.string.exclamation) +
-                    "\n" + getString(R.string.drew) + scoreTeamA + getString(R.string.points_message), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.drew_message, TeamAName, TeamBName, scoreTeamA), Toast.LENGTH_LONG).show();
         }
     }
 
